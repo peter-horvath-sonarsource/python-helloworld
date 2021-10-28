@@ -22,7 +22,7 @@ def main(argv=None):
     parser.parse_args(argv[1:])
 
     print("Hello, world")
-
+    # TODO comment
     names = ["a", "b", "c"]
     for i in range(len(names)):
         print(i, names[i])
