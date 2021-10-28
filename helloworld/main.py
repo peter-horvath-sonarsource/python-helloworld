@@ -23,4 +23,8 @@ def main(argv=None):
 
     print("Hello, world")
 
+    names = ["a", "b", "c"]
+    for i in range(len(names)):
+        print(i, names[i])
+
     return 0
